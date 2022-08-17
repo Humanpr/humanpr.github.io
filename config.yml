@@ -1,0 +1,30 @@
+baseURL: https://humanpr.github.io
+languageCode: en-us
+title: Vugar's Blog
+theme: "PaperMod"
+
+paginate: 5
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+params:
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  UseHugoToc: true
+  hideSummary: true
+  disableSpecial1stPost: true
+
+  # homeInfoParams:
+  #   Title: "Welcome to my blog"
+  #   Content: "asas"
+
+menu:
+  main:
+    - identifier: about
+      name: About me
+      url: /about/
+      weight: 10
+  
