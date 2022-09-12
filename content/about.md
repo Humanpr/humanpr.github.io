@@ -1,6 +1,6 @@
 ---
 title: "About me"
-description: "Desc Text."
+description: ""
 searchHidden: true
 ---
 
